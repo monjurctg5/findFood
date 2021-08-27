@@ -1,5 +1,4 @@
 
-
 let loadData = () => {
     const inputField = document.getElementById('search-field')
     let text = inputField.value;
@@ -58,7 +57,6 @@ const displayMeal = (meal) => {
     <h5 class="modal-title" id="exampleModalLabel">${meal.strMeal}</h5>
     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
     `
-
     let modalBody = document.getElementById('modalBody')
     modalBody.innerHTML = `
     <div>

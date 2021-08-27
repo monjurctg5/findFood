@@ -34,7 +34,9 @@ const getMeal = (meals) => {
             div.className = "col"
             div.innerHTML = `  
             <div class="card" onclick = "loadMealDetails(${meal.idMeal})" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <img  src="${meal.strMealThumb}" class="card-img-top" alt="...">
+               <div class = "m-3"> 
+                    <img  src="${meal.strMealThumb}" class="card-img-top " >
+               </div>
             <div class="card-body">
                     <h5 class="card-title">'${meal.strMeal}'</h5>
             </div>
